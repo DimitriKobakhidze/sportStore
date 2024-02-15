@@ -1,0 +1,11 @@
+.image-side-bar {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+.image-side-bar img {
+  cursor: pointer;
+  width: 4rem;
+  height: 4rem;
+  border: solid 1px #bbb;
+}

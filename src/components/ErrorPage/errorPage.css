@@ -1,0 +1,12 @@
+.error-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 5rem);
+  background-color: #f8f9fa;
+}
+
+.error-page h1 {
+  font-size: 4em;
+  color: #6c757d;
+}

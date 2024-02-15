@@ -1,0 +1,9 @@
+.page-changer {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+.changer-number {
+  cursor: pointer;
+}

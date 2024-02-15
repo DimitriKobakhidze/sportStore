@@ -1,0 +1,44 @@
+.overlay-remove-item {
+  cursor: pointer;
+  font-weight: 500;
+  border-bottom: 1px solid var(--mainFont);
+}
+.overlay-remove-item:hover {
+  font-weight: bold;
+}
+.overlay-product-card {
+  display: grid;
+  justify-items: center;
+  max-width: 100%;
+  overflow: hidden;
+  border: 1px solid #bbb;
+  padding: 0.5rem 0.8rem;
+}
+.overlay-product-img {
+  max-width: 8rem;
+  max-height: 8rem;
+}
+.overlay-product-price {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.quantity-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.quantitiy-changer {
+  border: solid 1px var(--mainFont);
+  padding: 0.1rem 0.5rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+.overlay-product-quantity {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.overlay-product-card h1 {
+  max-width: 100%;
+  white-space: wrap;
+}

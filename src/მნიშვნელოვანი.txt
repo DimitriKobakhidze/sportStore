@@ -1,0 +1,9 @@
+ბაზა env
+PORT= 5000
+MONGO_URL= "mongodb+srv://dimitrikobakhidze1:NnAjkYacs9Bqypyb@cluster0.bjxscue.mongodb.net/?retryWrites=true&w=majority"
+TOKEN_SECRET = "dimitrikobakhidze1123"
+
+საიტის ადმინის ექაუნთი
+dimitri
+Kobakhidze1
+

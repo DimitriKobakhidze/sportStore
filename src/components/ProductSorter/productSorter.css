@@ -1,0 +1,38 @@
+.product-sorter {
+  margin-bottom: 1.2rem;
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+}
+.product-sorter select {
+  border: 1px solid #ccc;
+}
+.name-input-warpper {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.search-input {
+  max-width: 15rem;
+  font-size: 1.2rem;
+  padding: 0.2rem 0.4rem;
+  border: none;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+.search-icon-wrapper {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  padding: 0 0.5rem;
+  cursor: pointer;
+}
+.search-icon-wrapper:hover {
+  background-color: #ccc;
+}
+.search-icon {
+  font-size: 1.5rem;
+  pointer-events: none;
+  color: var(--mainFont);
+}
